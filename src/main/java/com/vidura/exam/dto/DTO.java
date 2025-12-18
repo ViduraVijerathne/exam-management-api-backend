@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public abstract class DTO {
+public  class DTO {
     private String message;
     private ServerStatus status;
 
